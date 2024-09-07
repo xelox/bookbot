@@ -19,7 +19,7 @@ def main():
         letters = count_letters(file_contents)
 
         print("--- Begin report of books/frankenstein.txt ---") 
-        print(f"{words} words found in the document")
+        print(f"{len(words)} words found in the document")
         for [letter, count] in letters.items():
             print(f"The {letter} character was found {count} times")
 
